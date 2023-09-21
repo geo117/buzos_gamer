@@ -5,9 +5,11 @@ const InfoImg = () => {
 
     return(
         <div>
-            <p>salida de prueba</p>
+            <div className="bg-success">
+                <p>salida de prueba</p>
+            </div>
         </div>
-    )
+    );
 }
 
 export default InfoImg;
