@@ -14,7 +14,7 @@ const Inicio = () => {
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href={()=>{alert("inicio")}} >Inicio</a>
+                                <a className="nav-link" aria-current="page" href="https://www.youtube.com/" >Inicio</a>
                             </li>
                             <li className="nav-item">
                                 <span className="nav-link" >Shoping</span>
