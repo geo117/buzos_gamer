@@ -4,11 +4,14 @@ const Inicio = () => {
 
     return (
         <div>
-            <div className="container-fluid py-2 content1 bg-info">
-                <div>
-                    <h2>slaida de prueba</h2>
+            <div className="container-fluid py-2 content1">
+                <div className="text-center">
+                    <h2>Todo en buzos</h2>
+                    <p className="texto1">
+                        <b>los mejores buzos gamer en el mercado y mucho mas</b>
+                    </p>
                 </div>
-                <div className="bg-warning">
+                <div>
                     <div className="container-fluid text-center">
                         {[1, 2, 3].map(x => (
                             <div className="row" key={x}>
@@ -17,9 +20,13 @@ const Inicio = () => {
                                         <div className="text-center">
                                             <img src={require("../imagenes/img1.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
                                         </div>
-                                        <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <span className="btn btn-primary">Go somewhere</span>
+                                        <div className="card-body text-start">
+                                            <p className="card-title m-0">
+                                                <b>Buzo Gamer Valoran Equipo Rojo</b>
+                                            </p>
+                                            <p className="card-title m-0">
+                                                <b>$ 70.000</b>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -28,9 +35,13 @@ const Inicio = () => {
                                         <div className="text-center">
                                             <img src={require("../imagenes/img2.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
                                         </div>
-                                        <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <span className="btn btn-primary">Go somewhere</span>
+                                        <div className="card-body text-start">
+                                            <p className="card-title m-0">
+                                                <b>Buzo Gamer Valoran Equipo Verde</b>
+                                            </p>
+                                            <p className="card-title m-0">
+                                                <b>$ 70.000</b>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -39,9 +50,13 @@ const Inicio = () => {
                                         <div className="text-center">
                                             <img src={require("../imagenes/img3.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
                                         </div>
-                                        <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <span className="btn btn-primary">Go somewhere</span>
+                                        <div className="card-body text-start">
+                                            <p className="card-title m-0">
+                                                <b>Buzo Gamer Valoran Equipo Naranja</b>
+                                            </p>
+                                            <p className="card-title m-0">
+                                                <b>$ 70.000</b>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -50,9 +65,13 @@ const Inicio = () => {
                                         <div className="text-center">
                                             <img src={require("../imagenes/img4.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
                                         </div>
-                                        <div className="card-body">
-                                            <h5 className="card-title">Card title</h5>
-                                            <span className="btn btn-primary">Go somewhere</span>
+                                        <div className="card-body text-start">
+                                            <p className="card-title m-0">
+                                                <b>Buzo Gamer Valoran Equipo Azul</b>
+                                            </p>
+                                            <p className="card-title m-0">
+                                                <b>$ 70.000</b>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

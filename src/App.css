@@ -1,9 +1,22 @@
 .App{
-  height: 100vh;
-  background-color: bisque;
+  min-height: 100vh;
+  background-image: url("./componentes/imagenes/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 .imgcss{
   width: 90%;
   height: 15rem;
+}
+
+.navegacion{
+  background-color: #F5B041;
+  color: azure;
+}
+
+.texto1{
+  font-size: 3ch;
+  font-family: 'Century Gothic', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

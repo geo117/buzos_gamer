@@ -12,7 +12,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Inicios />} />
-          <Route path='/InfoImage' element={<InfoImg />} />
+          <Route path='/InfoImg' element={<InfoImg />} />
         </Routes>
         <Fotter />
       </BrowserRouter>
