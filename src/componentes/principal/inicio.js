@@ -47,62 +47,64 @@ const Inicio = () => {
                 </div>
                 <div className="bg-warning">
                     <div className="container-fluid text-center">
-                        <div className="row">
-                            <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
-                                <div className="card" style={{width: "18rem"}}>
-                                    <div className="text-center">
-                                        <img src={require("../imagenes/img1.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                        {[1, 2, 3].map(x => (
+                            <div className="row" key={x}>
+                                <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
+                                    <div className="card" style={{width: "18rem"}}>
+                                        <div className="text-center">
+                                            <img src={require("../imagenes/img1.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Card title</h5>
+                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                        </div>
                                     </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                                </div>
+                                <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
+                                    <div className="card" style={{width: "18rem"}}>
+                                        <div className="text-center">
+                                            <img src={require("../imagenes/img2.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Card title</h5>
+                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
+                                    <div className="card" style={{width: "18rem"}}>
+                                        <div className="text-center">
+                                            <img src={require("../imagenes/img3.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Card title</h5>
+                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
+                                    <div className="card" style={{width: "18rem"}}>
+                                        <div className="text-center">
+                                            <img src={require("../imagenes/img4.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                                        </div>
+                                        <div className="card-body">
+                                            <h5 className="card-title">Card title</h5>
+                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
-                                <div className="card" style={{width: "18rem"}}>
-                                    <div className="text-center">
-                                        <img src={require("../imagenes/img2.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <a href="#" className="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
-                                <div className="card" style={{width: "18rem"}}>
-                                    <div className="text-center">
-                                        <img src={require("../imagenes/img3.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <a href="#" className="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
-                                <div className="card" style={{width: "18rem"}}>
-                                    <div className="text-center">
-                                        <img src={require("../imagenes/img4.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
-                                    </div>
-                                    <div className="card-body">
-                                        <h5 className="card-title">Card title</h5>
-                                        <a href="#" className="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
+                        ))}
                     </div>
                 </div>
             </div>
             <div className="footer1 bg-success">
                 <div className="container-fluid text-center">
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-md-4">
                         Column
                         </div>
-                        <div className="col-8">
+                        <div className="col-md-8">
                         Column
                         </div>
                     </div>
