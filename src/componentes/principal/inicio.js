@@ -1,42 +1,43 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Inicio = () => {
 
-    return(
+    return (
         <div>
             <div className="cebecera1">
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">
                         <span className="navbar-brand" >Navbar</span>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                            <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <span className="nav-link" aria-current="page">Inicio</span>
-                            </li>
-                            <li className="nav-item">
-                                <span className="nav-link" >Shoping</span>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <span className="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </span>
-                                <ul className="dropdown-menu">
-                                    <li><span className="dropdown-item" >Action</span></li>
-                                    <li><span className="dropdown-item" >Another action</span></li>
-                                    <li><hr className="dropdown-divider"/></li>
-                                    <li><span className="dropdown-item" >Something else here</span></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <div className="mx-3">
-                            <form className="d-flex" role="search">
-                                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                                <button className="btn btn-outline-success" type="submit">Search</button>
-                            </form>
-                        </div>
+                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li className="nav-item">
+                                    <Link to="/" className="nav-link active" aria-current="page">Inicio</Link>
+                                </li>
+                                <li className="nav-item">
+                                    <span className="nav-link" >Shoping</span>
+                                </li>
+                                <li className="nav-item dropdown">
+                                    <span className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </span>
+                                    <ul className="dropdown-menu">
+                                        <li><span className="dropdown-item" >Action</span></li>
+                                        <li><span className="dropdown-item" >Another action</span></li>
+                                        <li><hr className="dropdown-divider" /></li>
+                                        <li><span className="dropdown-item" >Something else here</span></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div className="mx-3">
+                                <form className="d-flex" role="search">
+                                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                                    <button className="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -50,46 +51,46 @@ const Inicio = () => {
                         {[1, 2, 3].map(x => (
                             <div className="row" key={x}>
                                 <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
-                                    <div className="card" style={{width: "20rem"}}>
+                                    <div className="card" style={{ width: "20rem" }}>
                                         <div className="text-center">
-                                            <img src={require("../imagenes/img1.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                                            <img src={require("../imagenes/img1.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
-                                            <span  className="btn btn-primary">Go somewhere</span>
+                                            <span className="btn btn-primary">Go somewhere</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
-                                    <div className="card" style={{width: "20rem"}}>
+                                    <div className="card" style={{ width: "20rem" }}>
                                         <div className="text-center">
-                                            <img src={require("../imagenes/img2.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                                            <img src={require("../imagenes/img2.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
-                                            <span  className="btn btn-primary">Go somewhere</span>
+                                            <span className="btn btn-primary">Go somewhere</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
-                                    <div className="card" style={{width: "20rem"}}>
+                                    <div className="card" style={{ width: "20rem" }}>
                                         <div className="text-center">
-                                            <img src={require("../imagenes/img3.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                                            <img src={require("../imagenes/img3.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
-                                            <span  className="btn btn-primary">Go somewhere</span>
+                                            <span className="btn btn-primary">Go somewhere</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
-                                    <div className="card" style={{width: "20rem"}}>
+                                    <div className="card" style={{ width: "20rem" }}>
                                         <div className="text-center">
-                                            <img src={require("../imagenes/img4.jpg")} className="imgcss card-img-top img-fluid" alt="..."/>
+                                            <img src={require("../imagenes/img4.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
-                                            <span  className="btn btn-primary">Go somewhere</span>
+                                            <span className="btn btn-primary">Go somewhere</span>
                                         </div>
                                     </div>
                                 </div>
@@ -102,10 +103,10 @@ const Inicio = () => {
                 <div className="container-fluid text-center">
                     <div className="row">
                         <div className="col-md-4">
-                        Column
+                            Column
                         </div>
                         <div className="col-md-8">
-                        Column
+                            Column
                         </div>
                     </div>
                 </div>
