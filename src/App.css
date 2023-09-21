@@ -1,5 +1,9 @@
 .App{
-  margin: 0;
-  padding: 0;
   height: 100vh;
+  background-color: bisque;
+}
+
+.imgcss{
+  width: 90%;
+  height: 15rem;
 }
