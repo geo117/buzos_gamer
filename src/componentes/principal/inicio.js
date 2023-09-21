@@ -7,27 +7,27 @@ const Inicio = () => {
             <div className="cebecera1">
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">Navbar</a>
+                        <a className="navbar-brand" >Navbar</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Inicio</a>
+                                <a className="nav-link" aria-current="page" >Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Shoping</a>
+                                <a className="nav-link" >Shoping</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a className="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                    <li><a className="dropdown-item" >Action</a></li>
+                                    <li><a className="dropdown-item" >Another action</a></li>
                                     <li><hr className="dropdown-divider"/></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a className="dropdown-item" >Something else here</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -56,7 +56,7 @@ const Inicio = () => {
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
-                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                            <a  className="btn btn-primary">Go somewhere</a>
                                         </div>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ const Inicio = () => {
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
-                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                            <a  className="btn btn-primary">Go somewhere</a>
                                         </div>
                                     </div>
                                 </div>
@@ -78,7 +78,7 @@ const Inicio = () => {
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
-                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                            <a  className="btn btn-primary">Go somewhere</a>
                                         </div>
                                     </div>
                                 </div>
@@ -89,7 +89,7 @@ const Inicio = () => {
                                         </div>
                                         <div className="card-body">
                                             <h5 className="card-title">Card title</h5>
-                                            <a href="#" className="btn btn-primary">Go somewhere</a>
+                                            <a  className="btn btn-primary">Go somewhere</a>
                                         </div>
                                     </div>
                                 </div>
