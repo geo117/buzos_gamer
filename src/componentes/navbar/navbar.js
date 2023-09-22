@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
+import * as BiIcons from 'react-icons/bi';
+import * as FaIcons from 'react-icons/fa';
 
 const Navbar = () => {
 
@@ -31,13 +33,17 @@ const Navbar = () => {
                                         <li><span className="dropdown-item" >Something else here</span></li>
                                     </ul>
                                 </li>
+                                <li className="nav-item d-flex justify-content-center align-items-center">
+                                    <div className="px-2">
+                                        <BiIcons.BiSolidUser className="fs-3" title="iniciar sesion"/>
+                                    </div>
+                                </li>
+                                <li className="nav-item d-flex justify-content-center align-items-center">
+                                    <div className="px-2">
+                                        <FaIcons.FaShoppingCart className="fs-3" title="compras"/>
+                                    </div>
+                                </li>
                             </ul>
-                            <div className="mx-3">
-                                <form className="d-flex" role="search">
-                                    <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                    <button className="btn btn-outline-success" type="submit">Search</button>
-                                </form>
-                            </div>
                         </div>
                     </div>
                 </nav>
