@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Inicio = () => {
+    const id = 'Inicio';
 
     return (
         <div>
@@ -18,7 +20,9 @@ const Inicio = () => {
                                 <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
                                     <div className="card" style={{ width: "20rem" }}>
                                         <div className="text-center">
-                                            <img src={require("../imagenes/img1.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
+                                            <Link to="/infoimg">
+                                                <img src={require("../imagenes/img1.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
+                                            </Link>
                                         </div>
                                         <div className="card-body text-start">
                                             <p className="card-title m-0">
@@ -33,7 +37,9 @@ const Inicio = () => {
                                 <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
                                     <div className="card" style={{ width: "20rem" }}>
                                         <div className="text-center">
-                                            <img src={require("../imagenes/img2.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
+                                            <Link to="/infoimg">
+                                                <img src={require("../imagenes/img2.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
+                                            </Link>
                                         </div>
                                         <div className="card-body text-start">
                                             <p className="card-title m-0">
@@ -48,7 +54,9 @@ const Inicio = () => {
                                 <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
                                     <div className="card" style={{ width: "20rem" }}>
                                         <div className="text-center">
-                                            <img src={require("../imagenes/img3.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
+                                            <Link to="/infoimg">
+                                                <img src={require("../imagenes/img3.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
+                                            </Link>
                                         </div>
                                         <div className="card-body text-start">
                                             <p className="card-title m-0">
@@ -63,7 +71,9 @@ const Inicio = () => {
                                 <div className="col-md-3 mb-2 d-flex justify-content-center align-items-center">
                                     <div className="card" style={{ width: "20rem" }}>
                                         <div className="text-center">
-                                            <img src={require("../imagenes/img4.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
+                                            <Link to="/infoimg">
+                                                <img src={require("../imagenes/img4.jpg")} className="imgcss card-img-top img-fluid" alt="..." />
+                                            </Link>
                                         </div>
                                         <div className="card-body text-start">
                                             <p className="card-title m-0">
