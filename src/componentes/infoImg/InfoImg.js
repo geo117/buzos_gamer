@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 
 const InfoImg = () => {
-    const { id } = useParams();
+    //const { id } = useParams();
 
     return (
       <div className="container-fluid">

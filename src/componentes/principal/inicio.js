@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom';
 
 const Inicio = () => {
-    const id = 'Inicio';
+    //const id = 'Inicio';
 
     return (
         <div>
