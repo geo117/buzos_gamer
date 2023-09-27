@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import * as BiIcons from 'react-icons/bi';
+import {
+    Dropdown,
+} from "react-bootstrap";
+import * as AiIcons from 'react-icons/ai';
 import * as FaIcons from 'react-icons/fa';
+import * as BiIcons from 'react-icons/bi';
 
 const Navbar = () => {
 
-    return(
+    return (
         <div>
             <div className="cebecera1">
                 <nav className="navbar navbar-expand-lg navegacion">
@@ -35,12 +39,30 @@ const Navbar = () => {
                                 </li>
                                 <li className="nav-item d-flex justify-content-center align-items-center">
                                     <div className="px-2">
-                                        <BiIcons.BiSolidUser className="fs-3" title="iniciar sesion"/>
+                                        <Link to="/login" className="login">
+                                            <AiIcons.AiOutlinePoweroff className="fs-3" title="iniciar sesion" />
+                                        </Link>
                                     </div>
                                 </li>
                                 <li className="nav-item d-flex justify-content-center align-items-center">
                                     <div className="px-2">
-                                        <FaIcons.FaShoppingCart className="fs-3" title="compras"/>
+                                        <FaIcons.FaShoppingCart className="fs-3" title="compras" />
+                                    </div>
+                                </li>
+                                <li className="nav-item d-flex justify-content-center align-items-center">
+                                    <div className="px-2">
+                                        <Dropdown>
+                                            <Dropdown.Toggle variant="success" id="dropdown-basic" >
+                                                <BiIcons.BiSolidUserCircle className="fs-3"/>
+                                            </Dropdown.Toggle>
+
+                                            <Dropdown.Menu>
+                                                <Dropdown.Item href="#/action-1">Perfil</Dropdown.Item>
+                                                <Dropdown.Item href="#/action-1">Compras</Dropdown.Item>
+                                                <Dropdown.Item href="#/action-2">Cargar Informacion</Dropdown.Item>
+                                                <Dropdown.Item href="#/action-3">Reportes</Dropdown.Item>
+                                            </Dropdown.Menu>
+                                        </Dropdown>
                                     </div>
                                 </li>
                             </ul>

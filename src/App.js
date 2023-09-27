@@ -4,6 +4,7 @@ import Navbar from './componentes/navbar/navbar.js';
 import Fotter from './componentes/footer/footer.js';
 import Inicios from './componentes/principal/inicio.js';
 import InfoImg from './componentes/infoImg/InfoImg.js';
+import Login from './componentes/login/login.js';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Inicios />} />
           <Route path='/InfoImg' element={<InfoImg />} />
+          <Route path='/Login' element={<Login />} />
         </Routes>
         <Fotter />
       </BrowserRouter>

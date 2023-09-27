@@ -60,6 +60,21 @@
   border-radius: 20px;
 }
 
+.login{
+  color: white;
+}
+
+.loginContent{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginfondo{
+  background-color: cadetblue;
+}
+
 .baner{
   background: rgba(147,206,222,1);
   background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
