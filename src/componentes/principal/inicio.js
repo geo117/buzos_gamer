@@ -7,7 +7,7 @@ const Inicio = () => {
     return (
         <div>
             <div className="container-fluid py-2 content1">
-                <div className="text-center">
+                <div className="text-center text-white">
                     <h2>Todo en buzos</h2>
                     <p className="texto1">
                         <b>los mejores buzos gamer en el mercado y mucho mas</b>
