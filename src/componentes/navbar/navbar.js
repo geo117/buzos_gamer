@@ -56,8 +56,12 @@ const Navbar = () => {
                                                 <BiIcons.BiSolidUserCircle className="fs-3"/>
                                             </Dropdown.Toggle>
 
-                                            <Dropdown.Menu>
-                                                <Dropdown.Item href="#/action-1">Perfil</Dropdown.Item>
+                                            <Dropdown.Menu className="links">
+                                                <Dropdown.Item>
+                                                    <Link to="/Perfil">
+                                                        Perfil
+                                                    </Link>
+                                                </Dropdown.Item>
                                                 <Dropdown.Item href="#/action-1">Compras</Dropdown.Item>
                                                 <Dropdown.Item href="#/action-2">Cargar Informacion</Dropdown.Item>
                                                 <Dropdown.Item href="#/action-3">Reportes</Dropdown.Item>

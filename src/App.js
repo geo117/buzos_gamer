@@ -5,6 +5,7 @@ import Fotter from './componentes/footer/footer.js';
 import Inicios from './componentes/principal/inicio.js';
 import InfoImg from './componentes/infoImg/InfoImg.js';
 import Login from './componentes/login/login.js';
+import Perfil from './componentes/perfil/perfil.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Inicios />} />
           <Route path='/InfoImg' element={<InfoImg />} />
           <Route path='/Login' element={<Login />} />
+          <Route path='/Perfil' element={<Perfil />} />
         </Routes>
         <Fotter />
       </BrowserRouter>
