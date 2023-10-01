@@ -97,4 +97,28 @@
   .perfil{
     height: auto;
   }
+
+  .imginfo{
+    width: 50%;
+    height: 14rem;
+  }
+
+  .barraimg{
+    height: 20rem;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .barraimg::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .barraimg::-webkit-scrollbar-track {
+    background-color: #e9e5e5;
+  }
+  
+  .barraimg::-webkit-scrollbar-thumb {
+    background-color: #3286b6;
+    border-radius: 20px;
+  }
 }
