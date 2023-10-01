@@ -9,7 +9,7 @@ const Perfil = () => {
                 <div className="row">
                     <div className="col-md-12 text-center">
                         <img className="img-fluid rounded-circle border mb-2" width="30%"
-                            src={require("../imagenes/imgperfil.jpg")}
+                            src={require("../imagenes/imgperfil.jpg")} alt="imgperfil"
                         />
                     </div>
                     <div className="col-md-6 py-2 d-flex justify-content-center">
