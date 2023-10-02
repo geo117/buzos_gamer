@@ -93,6 +93,10 @@
   background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
 }
 
+.tabla{
+  height: 100vh;
+}
+
 @media only screen and (max-width: 600px)  {
   .perfil{
     height: auto;

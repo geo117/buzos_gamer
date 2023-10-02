@@ -62,7 +62,11 @@ const Navbar = () => {
                                                         Perfil
                                                     </Link>
                                                 </Dropdown.Item>
-                                                <Dropdown.Item href="#/action-1">Compras</Dropdown.Item>
+                                                <Dropdown.Item href="#/action-1">
+                                                    <Link to="/Compras">
+                                                        Compras
+                                                    </Link>
+                                                </Dropdown.Item>
                                                 <Dropdown.Item href="#/action-2">Cargar Informacion</Dropdown.Item>
                                                 <Dropdown.Item href="#/action-3">Reportes</Dropdown.Item>
                                             </Dropdown.Menu>

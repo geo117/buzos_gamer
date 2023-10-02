@@ -6,6 +6,7 @@ import Inicios from './componentes/principal/inicio.js';
 import InfoImg from './componentes/infoImg/InfoImg.js';
 import Login from './componentes/login/login.js';
 import Perfil from './componentes/perfil/perfil.js';
+import Compras from './componentes/compras/compras.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/InfoImg' element={<InfoImg />} />
           <Route path='/Login' element={<Login />} />
           <Route path='/Perfil' element={<Perfil />} />
+          <Route path='/Compras' element={<Compras />} />
         </Routes>
         <Fotter />
       </BrowserRouter>
