@@ -7,6 +7,7 @@ import InfoImg from './componentes/infoImg/InfoImg.js';
 import Login from './componentes/login/login.js';
 import Perfil from './componentes/perfil/perfil.js';
 import Compras from './componentes/compras/compras.js';
+import CargaInfo from './componentes/carga_info/cargarinfo.js';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/Login' element={<Login />} />
           <Route path='/Perfil' element={<Perfil />} />
           <Route path='/Compras' element={<Compras />} />
+          <Route path='/CargaInfo' element={<CargaInfo />} />
         </Routes>
         <Fotter />
       </BrowserRouter>

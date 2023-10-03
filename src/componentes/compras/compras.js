@@ -12,7 +12,7 @@ const Compras = () => {
 
     return (
         <div>
-            <div className="bg-white rounded container py-4 tabla">
+            <div className="bg-white rounded container py-4 my-3 tabla">
                 <Table striped responsive>
                     <thead>
                         <tr className="text-center">
