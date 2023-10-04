@@ -131,7 +131,7 @@ const CargarInfo = () => {
             '',
             'success'
         )
-    }
+    };
 
     return (
         <div>
@@ -160,11 +160,15 @@ const CargarInfo = () => {
                                     <td className="text-center">{x.cantidad}</td>
                                     <td className="text-center">{formatearPrecio(x.valortotal)}</td>
                                     <td className="text-center">
-                                        <div>
-                                            <MdIcons.MdModeEditOutline color="blue" size={20} title="editar" />
-                                            <MdIcons.MdDelete color="red" size={20} title="eliminar" 
-                                                onClick={()=>eliminar(x.id)}
-                                            />
+                                        <div className="d-flex justify-content-center">
+                                            <div className="bottonaccion">
+                                                <MdIcons.MdModeEditOutline color="blue" size={20} title="editar" />
+                                            </div>
+                                            <div className="bottonaccion mx-2">
+                                                <MdIcons.MdDelete color="red" size={20} title="eliminar" 
+                                                    onClick={()=>eliminar(x.id)}
+                                                />
+                                            </div>
                                         </div>
                                     </td>
                                 </tr>
