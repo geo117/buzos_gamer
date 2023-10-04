@@ -8,6 +8,7 @@ import Login from './componentes/login/login.js';
 import Perfil from './componentes/perfil/perfil.js';
 import Compras from './componentes/compras/compras.js';
 import CargaInfo from './componentes/carga_info/cargarinfo.js';
+import Registro from './componentes/login/registro.js';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/Perfil' element={<Perfil />} />
           <Route path='/Compras' element={<Compras />} />
           <Route path='/CargaInfo' element={<CargaInfo />} />
+          <Route path='/Registro' element={<Registro />} />
         </Routes>
         <Fotter />
       </BrowserRouter>

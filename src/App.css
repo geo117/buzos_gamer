@@ -112,6 +112,15 @@
   cursor: pointer;
 }
 
+.registro{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.regis{
+  height: 100vh;
+}
+
 @media only screen and (max-width: 600px)  {
   .perfil{
     height: auto;

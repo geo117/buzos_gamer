@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { 
     Form, InputGroup, Button,
 } from "react-bootstrap";
@@ -29,9 +30,16 @@ const Login = () => {
                     </InputGroup>
                 </div>
                 <div className="text-center">
-                    <Button variant="primary fs-5">
-                        <b>Ingresar</b>
-                    </Button>
+                    <p className="m-0">
+                        <Button variant="primary fs-5">
+                            <b>Ingresar</b>
+                        </Button>
+                    </p>
+                    <p className="m-0">
+                        <Link to="/Registro" className="registro">
+                            <span>Registrate</span>
+                        </Link>
+                    </p>
                 </div>
             </div>
         </div>
